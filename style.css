@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+
 }
 body{
     background-color: #081b29;
@@ -26,7 +27,7 @@ z-index: 100;
     font-weight: 600;
 }
 .navbar a {
-    font-size: 18px;
+    font-size: 20px;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
@@ -60,7 +61,7 @@ z-index: 100;
     color: #00abf0;
 }
 .homecontent p{
-    font-size: 16px;
+    font-size: 20px;
     margin:  20px 0 20px;
     text-align: justify;
 }
@@ -109,7 +110,7 @@ a:hover{
 background-color: transparent;
 color: #00abf0;
 }
- #abt{
+ /* #abt{
     margin-top: 100PX;
     height: 200px;
     width: 80%;
@@ -134,51 +135,15 @@ color: #00abf0;
     text-align: justify;
     font-weight: 500;
    
- }
+ } */
  html{
     scroll-behavior: smooth;
  }
-#skill{
-    margin-top: 100PX;
-    height: 200px;
-    width: 80%;
-    background-color: #00abf0;
-    border-radius: 30px;
-}
-#skill h3{
-    font-size: 30px;
-    color: #ededed;
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
-}
-#skill p{
-    font-size: 20px;
-    color: #ededed;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    padding: 0 10%;
-    text-align: justify;
-    font-weight: 500;
-}
+
 .logoo{
-    position: absolute;
-    height: 200px;
-    width: 100%;
-    align-items: end;
-    background-color: transparent;
-    padding-left: 550px;
-    padding-top: 200px;
-    margin: 30px;
     justify-content: space-evenly;
-    
-}
-#contact{
-   
+    padding-left: 630px;
     height: 500px;
-    
-    align-items: end;
 }
 #contact a{
     display: inline-flex;
@@ -186,6 +151,7 @@ color: #00abf0;
     align-items: center;
     width: 40px;
     height: 40px;
+    margin: 10px;
     background: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
@@ -193,10 +159,97 @@ color: #00abf0;
     color: #00abf0;
     text-decoration: none;
     
+    
 }
 .my{
     position: absolute;
     padding-left: 900px;
     padding-top: 20px;
     border-radius: 80px;
+}
+.abt1{
+    height: 750px;
+    background-color:;
+}
+.hed1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;   
+}
+.para{
+    text-align: center; 
+    height: 200px;
+    background-color: transparent;
+}
+.abt1 h5{
+    padding-top:100px;
+    text-align: center;
+    
+}
+.para p{
+    font-size:20px;
+    margin: 2rem 0 3rem;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;    
+}
+.para button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #081b29;
+    border: solid 2px #00abf0;
+    color: #00abf0;
+    outline-color: #00abf0;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    font-size: 24px;
+    transition:0.4s;
+    
+}
+.linkskill a{
+    text-decoration: none;
+    color: #00abf0;
+}
+.line{
+    height: 300px;
+    
+}
+.skill1{
+    height: 730px;
+
+}
+.skill1 h3{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 50px;
+    color: aqua;
+}
+.skill1 h3:hover{
+    font-size: 58px;
+    transition: 0.5s;
+}
+.skill1 h5{
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 60px;
+}
+.skills{
+    height: 700px;
+    background-color:;
+    text-align: center;
+}
+.skills h4{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    color: #ededed;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skillline{
+    margin: 0px;
 }
